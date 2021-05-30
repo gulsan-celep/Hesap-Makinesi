@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <title>Calculator</title>
+        <link rel="stylesheet" href="hesapMakinesi.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <table id="calculater">
+            <tr>
+                <td colspan="5">
+                    <input type="input" value="0" name="viewResult" id="viewResult" disabled>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <button id="resetAll" class="operation">C</button>
+                    <button id="deleteInOrder" class="operation">&#10094;</button>
+                    <button id="calculateTheResult" class="operation">=</button>
+                    <button class="btnPi operation">&#960;</button>
+                    <button id="absolute" class="operation">|x|</button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <button class="btnNumber">7</button>
+                    <button class="btnNumber">8</button>
+                    <button class="btnNumber">9</button>
+                    <button id="powerOfANumber" class="btnOperation operation">x&#94;</button>
+                    <button class="btnOperation operation">/</button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <button class="btnNumber">4</button>
+                    <button class="btnNumber">5</button>
+                    <button class="btnNumber">6</button>
+                    <button id="calculateLogarithm" class="operation">log</button>
+                    <button class="btnOperation operation">*</button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <button class="btnNumber">1</button>
+                    <button class="btnNumber">2</button>
+                    <button class="btnNumber">3</button>
+                    <button id="calculateSquare" class="operation">&radic;</button>
+                    <button class="btnOperation operation">-</button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <button id="changeSign" class="operation">&#177</button>
+                    <button class="btnNumber">0</button>
+                    <button class="btnDot operation">&#46;</button>
+                    <button id="squaringANumber" class="operation">x&#50;</button>
+                    <button class="btnOperation operation">+</button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <button id="factorial" class="operation">n!</button>
+                    <button class="btnOperation operation">mod</button>
+                    <button id="calculateCos" class="operation">cos</button>
+                    <button id="calculateSin" class="operation">sin</button>
+                    <button id="calculateTan" class="operation">tan</button>
+                </td>
+            </tr>
+        </table>
+    </body>
+    <script src="hesapMakinesi.js"></script>
+</html>
